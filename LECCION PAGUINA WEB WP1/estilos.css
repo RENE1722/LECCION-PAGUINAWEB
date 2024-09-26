@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 20px;
+    background-color: #9e2020;
+    text-align: center;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.slider {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.slide {
+    display: none;
+    padding: 10px;
+}
+
+.slide.active {
+    display: block;
+}
+
+button {
+    margin: 60px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+header {
+    background: #333;
+    color: #5c5b0f;
+    padding: 20px ;
+    text-align: center;
+}
+
+h2 {
+    color: #8d1a1a;
+}
+
+#servicios-container {
+    background-color: #9e2020;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+.servicio {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.slider {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100px;
+}
+
+button {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+
+
+        /* Estilos para el botón */
+        .facebook-button {
+            background-color: #4267B2; /* Color de fondo de Facebook */
+            color: white; /* Color del texto */
+            padding: 10px 20px; /* Espaciado interno */
+            border: none; /* Sin borde */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambia el cursor al pasar por encima */
+            font-size: 16px; /* Tamaño de la fuente */
+            text-decoration: none; /* Sin subrayado */
+            display: inline-block; /* Para que se comporte como un botón */
+        }
+        .facebook-button:hover {
+            background-color: #365899; /* Color de fondo al pasar el mouse */
+        }
+    
+
+        
+        /* Estilos generales del cuerpo */
+        body {
+            font-family: Arial, sans-serif; /* Tipografía */
+            background-color: #f0f0f0; /* Color de fondo */
+            margin: 0; /* Sin márgenes */
+            padding: 20px; /* Espaciado interno */
+            text-align: center; /* Centrar texto */
+        }
+
+        /* Estilos del botón */
+        .instagram-button {
+            background-color: #5c339c; /* Color de fondo de Instagram */
+            color: rgb(131, 16, 16); /* Color del texto */
+            padding: 10px 20px; /* Espaciado interno */
+            border: none; /* Sin borde */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambia el cursor al pasar por encima */
+            font-size: 16px; /* Tamaño de la fuente */
+            text-decoration: none; /* Sin subrayado */
+            display: inline-block; /* Para que se comporte como un botón */
+            transition: background-color 0.3s; /* Transición suave para el color de fondo */
+        }
+
+        /* Efecto al pasar el mouse sobre el botón */
+        .instagram-button:hover {
+            background-color: #228032; /* Color de fondo al pasar el mouse */
+        }
+
+
+
+        
+        /* Estilos generales del cuerpo */
+        body {
+            font-family: Arial, sans-serif; /* Tipografía */
+            background-color: #692323; /* Color de fondo */
+            margin: 0; /* Sin márgenes */
+            padding: 20px; /* Espaciado interno */
+            text-align: center; /* Centrar texto */
+        }
+
+        /* Estilos del botón */
+        .visa-button {
+            background-color: #0033cc; /* Color de fondo de Visa */
+            color: white; /* Color del texto */
+            padding: 10px 20px; /* Espaciado interno */
+            border: none; /* Sin borde */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambia el cursor al pasar por encima */
+            font-size: 16px; /* Tamaño de la fuente */
+            text-decoration: none; /* Sin subrayado */
+            display: inline-block; /* Para que se comporte como un botón */
+            transition: background-color 0.3s; /* Transición suave para el color de fondo */
+        }
+
+        /* Efecto al pasar el mouse sobre el botón */
+        .visa-button:hover {
+            background-color: #002299; /* Color de fondo al pasar el mouse */
+        }
+    
+
+
+
+
+
+
+
+
+
+
